@@ -1,0 +1,118 @@
+// Поле поиска
+#input-search{
+    height: 29px;
+    width: 355px;
+    border: 1px solid #D8D8D8;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+// Изменение цвета фокуса при вводе текста.
+#input-search:focus{
+    border: 1px solid #75D9FF;
+}
+// Кнопка
+#form-search{
+    background: url(button-search-norm.png) no-repeat;
+    width: 54px;
+    height: 33px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-left: -5px;
+     
+}
+// Кнопка по наведению
+#form-search:hover{
+    background: url(button-search-hover.png) no-repeat;
+    width: 54px;
+    height: 33px;
+}
+/* Результат поиска */
+#block-search-result{
+    border-left: 1px solid #E1DFDD;
+    border-right: 1px solid #E1DFDD;
+    border-bottom: 1px solid #E1DFDD;
+    width: 419px;
+    height:  auto;
+    background-color: white;
+    position: absolute;
+    z-index: 9999;
+    display: none;
+}
+#list-search-result > li{
+    border-bottom: 1px solid #EAEAEA;
+    min-height: 25px;
+    height: auto;
+}
+ 
+.block-title-price{
+    width: 325px;
+    margin-left: 85px;
+}
+.block-title-price > a{
+    font: 15px sans-serif;
+    color: #287FC3;
+    margin-top: 10px;
+    display: block; 
+}
+.block-title-price > a:hover{
+    text-decoration: none; 
+}
+.block-title-price > p{
+    font: 15px sans-serif;
+    color: black;
+    margin: 10px 0;
+    display: block; 
+}
+#search-noresult{
+    color: #E96767;
+    font: 13px sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;    
+}
+.search-result-image{
+    position: absolute;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#search-more{
+    color: #287FC3;
+    font: 13px sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;   
+}
+table.lmenu a{
+font-family: 'PTSansRegular',Tahoma,Verdana,Helvetica,Arial,sans-serif;
+font-weight: bold;font-size: 16px;
+text-decoration: none;
+color:#3f4bab;
+}
+table.lmenu a:hover { 
+text-decoration: underline;
+
+}
+table.lmenu a:visited{
+color:#b77d9f;
+}
+.butn{
+height:25px;color:#FFFFFF;background-color:#6D8FB3;text-align:center;border-color:#7E9CBC #5C82AB #5C82AB;border-right:1px solid #5C82AB;
+border-radius: 8px;
+}
+#titl{
+color:#000099;position:absolute;display:inline-block;top:35px;left:275px;background-color:rgba(240,240,240,.7);padding:20px 30px;border-radius: 10px;
+}
+#emblema{
+display:inline-block;position:absolute;top:20px;left:45px;
+}
+#banner{
+position:relative;display:inline-block;border-radius: 20px;
+}
+.td-banner{
+padding:0;background-color:white;
+}
+.back{
+padding:17px 0 0 1px;border-radius: 20px;background-color:#DDDDEE;position:absolute;
+}

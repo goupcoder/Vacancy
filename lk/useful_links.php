@@ -1,0 +1,71 @@
+<?php
+session_start();
+
+echo '
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>СОФ НИУ БелГУ трудоустройство выпускников</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<table width="100%" cellpadding="5" cellspacing="4">
+<tr><td colspan=3 class="td-banner" height="250">		
+	<img src="../image/banner.png" width="100%" height="100%" alt="" id="banner">
+<a href="http://www.sof.bsu.edu.ru/sof/"><img src="../image/11.png" alt="" id="emblema"></a>
+<div id="titl">
+<p align="center"><font size="5">Белгородский государственный национальный 
+</font></p>
+<p align="center"><font size="5">исследовательский университет
+</font></p>
+<p align="center"><font size="5">Старооскольский филиал</font>
+</div>
+';
+include('login.php');
+echo'
+</td>
+</tr>
+<tr height='.($_SESSION['id']>0?'"69"':'height="0"').'>
+<td width="200" rowspan=2 valign="top">';
+include "lmenu.php"; 
+echo '</td>
+<td>
+';
+include ('lkm.php');
+echo '</td>
+</tr><tr>
+<td valign="top">
+<span style="font-family: \'Times New Roman\',serif">
+<font size="4"><p align="center">Полезные ссылки</font><hr>
+<font size="3">
+<p style="text-align: left">
+<a style="outline: none; text-decoration: none; font-weight: normal; color: rgb(19, 92, 174); font-family: Times New Roman; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)" href="http://www.rostrud.ru/">
+http://www.rostrud.ru/</a><span style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)"><span class="Apple-converted-space">&nbsp;</span></span><span style="font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)">Официальный 
+сайт федеральной службы по труду и занятости&nbsp;</span><br style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)">
+<br style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)">
+<a style="outline: none; text-decoration: none; font-weight: normal; color: rgb(19, 92, 174); font-family: Times New Roman; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)" href="http://www.bel-zan.ru/">
+http://www.bel-zan.ru/</a><span style="font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)"><span class="Apple-converted-space">&nbsp;</span>Официальный 
+сайт управления по труду и занятости населения Белгородской области</span><span style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)">&nbsp;</span><br style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)">
+<br style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)">
+<a style="outline: none; text-decoration: none; font-weight: normal; color: rgb(19, 92, 174); font-family: Times New Roman; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)" href="http://www.oskolregion.ru/">
+http://www.oskolregion.ru/</a><span style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)"><span class="Apple-converted-space">&nbsp;</span></span><span style="font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)">Официальный 
+сайт органов местного самоуправления Старооскольского городского округа</span><span style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)">&nbsp;</span><br style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)">
+<br style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)">
+<a style="outline: none; text-decoration: none; font-weight: normal; color: rgb(19, 92, 174); font-family: Times New Roman; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)" href="http://oskol-zan.ru/">
+http://oskol-zan.ru/</a><span style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)"><span class="Apple-converted-space">&nbsp;</span></span><span style="font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)">Официальный 
+сайт Областного казенного учреждения «Старооскольский городской центр занятости 
+населения»</span><span style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)">&nbsp;</span><br style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)">
+<br style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)">
+<a style="outline: none; text-decoration: none; font-weight: normal; color: rgb(19, 92, 174); font-family: Times New Roman; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)" href="http://www.trudvsem.ru/">
+http://www.trudvsem.ru/</a><span style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)"><span class="Apple-converted-space">&nbsp;</span></span><span style="font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)">Работа 
+в России - Общероссийский банк вакансии</span></p>
+<br style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)">
+<a style="outline: none; text-decoration: none; font-weight: normal; color: rgb(19, 92, 174); font-family: Times New Roman; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255)" href="http://unid.bsu.edu.ru/knit/job/">
+http://unid.bsu.edu.ru/knit/job/</a><span style="color: rgb(51, 51, 51); font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)"><span class="Apple-converted-space">&nbsp;</span></span><span style="font-family: Times New Roman; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 15.600000381469727px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255)">Сайт УНИД НИУ "БелГУ" - Трудоустройство</span></p>
+</font></span>
+</td>
+</tr>
+</table>
+</body>
+</html>';
+?>
